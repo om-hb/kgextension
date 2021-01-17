@@ -1,4 +1,4 @@
-.. figure:: docs/source/logo.png
+.. figure:: docs/_static/logo.png
    :alt: kgextension logo
 
 .. inclusion-marker-do-not-remove
