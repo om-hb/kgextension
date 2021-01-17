@@ -1,0 +1,5 @@
+entities,link,link_type_http://dbpedia.org/class/yago/AdministrativeDistrict108491826,link_type_http://dbpedia.org/class/yago/Area108497294,link_type_http://dbpedia.org/class/yago/UrbanArea108675967,link_type_http://dbpedia.org/class/yago/WikicatArchaeologicalSitesInFrance,link_type_http://dbpedia.org/class/yago/WikicatCapitalDistrictsAndTerritories,link_type_http://dbpedia.org/class/yago/WikicatPopulatedCoastalPlacesInArgentina
+Paris,http://dbpedia.org/resource/Paris,False,False,False,True,False,False
+Buenos Aires,http://dbpedia.org/resource/Buenos_Aires,True,True,True,False,True,True
+Mannheim,http://dbpedia.org/resource/Mannheim,False,False,False,False,False,False
+München,http://dbpedia.org/resource/Munich,False,False,False,False,False,False

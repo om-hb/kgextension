@@ -1,0 +1,4 @@
+uri_1,uri_2,value
+http://dbpedia.org/resource/Category:Countries_in_Europe,http://dbpedia.org/resource/Category:Nordic_countries,0
+http://dbpedia.org/ontology/country,http://dbpedia.org/resource/Category:Countries_in_Europe,0
+http://dbpedia.org/ontology/country,http://dbpedia.org/resource/Category:Nordic_countries,0

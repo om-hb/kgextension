@@ -1,0 +1,21 @@
+city,entity,new_link
+1,Bremen,http://dbpedia.org/resource/Bremen
+0,Hessen,http://dbpedia.org/resource/KSV_Hessen_Kassel
+0,Sachsen,http://dbpedia.org/resource/FC_Sachsen_Leipzig
+1,Mainz,http://dbpedia.org/resource/1._FSV_Mainz_05
+0,England,http://dbpedia.org/resource/England
+1,Speyer,http://dbpedia.org/resource/Speyer
+1,Frankfurt,http://dbpedia.org/resource/Eintracht_Frankfurt
+1,Leipzig,http://dbpedia.org/resource/Leipzig
+1,Paris,http://dbpedia.org/resource/Paris
+0,La Gomera,http://dbpedia.org/resource/San_Sebastián_de_La_Gomera
+0,Mallorca,http://dbpedia.org/resource/RCD_Mallorca
+0,USA,http://dbpedia.org/resource/United_States
+0,Mexico,http://dbpedia.org/resource/Mexico
+1,Mannheim,http://dbpedia.org/resource/SV_Waldhof_Mannheim
+1,Pforzheim,http://dbpedia.org/resource/Pforzheim
+0,Florida,http://dbpedia.org/resource/Florida
+0,Texas,http://dbpedia.org/resource/Texas
+1,New York,http://dbpedia.org/resource/New_York_(state)
+0,Bayern,http://dbpedia.org/resource/FC_Bayern_Munich
+1,Bonn,http://dbpedia.org/resource/Bonn

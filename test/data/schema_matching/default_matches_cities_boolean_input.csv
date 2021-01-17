@@ -1,0 +1,5 @@
+city,entity,new_link_1,new_link_in_boolean_http://dbpedia.org/resource/Category:German_state_capitals,new_link_in_boolean_http://www.wikidata.org/entity/Q7483098,new_link_in_boolean_http://dbpedia.org/resource/Category:Countries_in_Europe,new_link_in_boolean_http://es.dbpedia.org/resource/Categoría:Capitales_de_los_Estados_de_Alemania,new_link_in_boolean_http://www.wikidata.org/entity/Q4587626,new_link_in_boolean_http://dbpedia.org/resource/Category:Nordic_countries,new_link_in_boolean_http://dbpedia.org/ontology/country,new_link_in_boolean_http://www.wikidata.org/entity/P17,new_link_in_boolean_http://dbpedia.org/ontology/Organisation,new_link_in_boolean_http://schema.org/Organization
+1,Bremen,http://dbpedia.org/resource/Bremen,True,True,False,True,False,False,False,False,False,False
+1,Hamburg,http://dbpedia.org/resource/Hamburg,True,True,False,True,False,False,True,True,False,False
+0,Denmark,http://dbpedia.org/resource/Denmark,False,False,True,False,True,True,False,False,False,False
+1,Berlin,http://dbpedia.org/resource/Berlin,True,True,False,True,False,False,False,False,False,False

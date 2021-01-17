@@ -1,0 +1,21 @@
+city,entity,new_link
+1,Bremen,http://dbpedia.org/resource/Bremen
+0,Hessen,http://dbpedia.org/resource/Hessen
+0,Sachsen,http://dbpedia.org/resource/Sachsen
+1,Mainz,http://dbpedia.org/resource/Mainz
+0,England,http://dbpedia.org/resource/England
+1,Speyer,http://dbpedia.org/resource/Speyer
+1,Frankfurt,http://dbpedia.org/resource/Frankfurt
+1,Leipzig,http://dbpedia.org/resource/Leipzig
+1,Paris,http://dbpedia.org/resource/Paris
+0,La Gomera,http://dbpedia.org/resource/La_Gomera
+0,Mallorca,http://dbpedia.org/resource/Mallorca
+0,USA,http://dbpedia.org/resource/USA
+0,Mexico,http://dbpedia.org/resource/Mexico
+1,Mannheim,http://dbpedia.org/resource/Mannheim
+1,Pforzheim,http://dbpedia.org/resource/Pforzheim
+0,Florida,http://dbpedia.org/resource/Florida
+0,Texas,http://dbpedia.org/resource/Texas
+1,New York,http://dbpedia.org/resource/New_York
+0,Bayern,http://dbpedia.org/resource/Bayern
+1,Bonn,http://dbpedia.org/resource/Bonn

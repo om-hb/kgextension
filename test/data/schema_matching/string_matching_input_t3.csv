@@ -1,0 +1,5 @@
+entity,new_link_1,abc_http://dbpedia.org/resource/Berlin,http://dbpedia.org/resource/Bonn
+test,http://dbpedia.org/resource/test1,True,True
+test2,http://dbpedia.org/resource/test2,True,True
+test3,http://dbpedia.org/resource/test3,False,False
+test4,http://dbpedia.org/resource/test4,True,True

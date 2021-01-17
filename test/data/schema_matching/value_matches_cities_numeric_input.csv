@@ -1,0 +1,5 @@
+city,entity,new_link_1,Link_Out_numeric_http://dbpedia.org/ontology/PopulatedPlace/areaMetro,Link_Out_numeric_http://dbpedia.org/ontology/PopulatedPlace/areaTotal,Link_Out_numeric_http://dbpedia.org/ontology/PopulatedPlace/populationDensity,Link_Out_numeric_http://dbpedia.org/ontology/abstract,Link_Out_numeric_http://dbpedia.org/ontology/anthem,Link_Out_numeric_http://dbpedia.org/ontology/areaCode,Link_Out_numeric_http://dbpedia.org/ontology/areaMetro,Link_Out_numeric_http://dbpedia.org/ontology/areaTotal,Link_Out_numeric_http://dbpedia.org/ontology/capital,Link_Out_numeric_http://dbpedia.org/ontology/country
+1,Bremen,http://dbpedia.org/resource/Bremen,1,1,0,12,0,2,1,1,0,1
+1,Hamburg,http://dbpedia.org/resource/Hamburg,0,1,0,12,0,1,0,1,0,1
+0,Denmark,http://dbpedia.org/resource/Denmark,0,2,1,11,2,0,0,2,1,0
+1,Berlin,http://dbpedia.org/resource/Berlin,0,1,0,12,0,1,0,1,0,1

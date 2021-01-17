@@ -1,0 +1,21 @@
+new_link,entity,city,new_link_type_http://www.wikidata.org/entity/Q3957,new_link_type_http://www.wikidata.org/entity/Q486972,new_link_type_http://www.wikidata.org/entity/Q43229,new_link_type_http://www.wikidata.org/entity/Q476028,new_link_type_http://www.wikidata.org/entity/Q24229398,new_link_type_http://www.wikidata.org/entity/Q6256,new_link_type_http://www.wikidata.org/entity/Q3455524,new_link_type_http://www.wikidata.org/entity/Q515
+http://dbpedia.org/resource/Bremen,Bremen,1,True,True,False,False,False,False,False,False
+http://dbpedia.org/resource/KSV_Hessen_Kassel,Hessen,0,False,False,True,True,True,False,False,False
+http://dbpedia.org/resource/FC_Sachsen_Leipzig,Sachsen,0,False,False,True,True,True,False,False,False
+http://dbpedia.org/resource/1._FSV_Mainz_05,Mainz,1,False,False,True,True,True,False,False,False
+http://dbpedia.org/resource/England,England,0,False,False,False,False,False,False,False,False
+http://dbpedia.org/resource/Speyer,Speyer,1,True,True,False,False,False,False,False,False
+http://dbpedia.org/resource/Eintracht_Frankfurt,Frankfurt,1,False,False,True,True,True,False,False,False
+http://dbpedia.org/resource/Leipzig,Leipzig,1,True,True,False,False,False,False,False,False
+http://dbpedia.org/resource/Paris,Paris,1,False,True,False,False,False,False,False,False
+http://dbpedia.org/resource/San_Sebastián_de_La_Gomera,La Gomera,0,False,True,False,False,False,False,False,False
+http://dbpedia.org/resource/RCD_Mallorca,Mallorca,0,False,False,True,True,True,False,False,False
+http://dbpedia.org/resource/United_States,USA,0,False,False,False,False,False,True,False,False
+http://dbpedia.org/resource/Mexico,Mexico,0,False,False,False,False,False,True,False,False
+http://dbpedia.org/resource/SV_Waldhof_Mannheim,Mannheim,1,False,False,True,True,True,False,False,False
+http://dbpedia.org/resource/Pforzheim,Pforzheim,1,True,True,False,False,False,False,False,False
+http://dbpedia.org/resource/Florida,Florida,0,False,False,False,False,False,False,True,False
+http://dbpedia.org/resource/Texas,Texas,0,False,False,False,False,False,False,True,False
+http://dbpedia.org/resource/New_York,New York,1,False,False,False,False,False,False,True,False
+http://dbpedia.org/resource/FC_Bayern_Munich,Bayern,0,False,False,True,True,True,False,False,False
+http://dbpedia.org/resource/Bonn,Bonn,1,False,True,False,False,False,False,False,True

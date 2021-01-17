@@ -1,0 +1,21 @@
+new_link,entity,city,new_link_type_http://www.wikidata.org/entity/Q23442,new_link_type_http://www.wikidata.org/entity/Q24229398,new_link_type_http://www.wikidata.org/entity/Q3455524,new_link_type_http://www.wikidata.org/entity/Q3957,new_link_type_http://www.wikidata.org/entity/Q43229,new_link_type_http://www.wikidata.org/entity/Q476028,new_link_type_http://www.wikidata.org/entity/Q486972,new_link_type_http://www.wikidata.org/entity/Q515,new_link_type_http://www.wikidata.org/entity/Q6256
+http://dbpedia.org/resource/Bremen,Bremen,1,False,False,False,True,False,False,True,False,False
+http://dbpedia.org/resource/Hesse,Hessen,0,False,False,True,False,False,False,False,False,False
+http://dbpedia.org/resource/Saxony,Sachsen,0,False,False,True,False,False,False,False,False,False
+http://dbpedia.org/resource/Mainz,Mainz,1,False,False,False,True,False,False,True,False,False
+http://dbpedia.org/resource/England,England,0,False,False,False,False,False,False,False,False,False
+http://dbpedia.org/resource/Speyer,Speyer,1,False,False,False,True,False,False,True,False,False
+http://dbpedia.org/resource/Frankfurt,Frankfurt,1,False,False,False,False,False,False,True,True,False
+http://dbpedia.org/resource/Leipzig,Leipzig,1,False,False,False,True,False,False,True,False,False
+http://dbpedia.org/resource/Paris,Paris,1,False,False,False,False,False,False,True,False,False
+http://dbpedia.org/resource/La_Gomera,La Gomera,0,True,False,False,False,False,False,False,False,False
+,Mallorca,0,False,False,False,False,False,False,False,False,False
+http://dbpedia.org/resource/United_States,USA,0,False,False,False,False,False,False,False,False,True
+http://dbpedia.org/resource/Mexico,Mexico,0,False,False,False,False,False,False,False,False,True
+http://dbpedia.org/resource/Mannheim,Mannheim,1,False,False,False,False,False,False,True,True,False
+http://dbpedia.org/resource/Pforzheim,Pforzheim,1,False,False,False,True,False,False,True,False,False
+http://dbpedia.org/resource/Florida,Florida,0,False,False,True,False,False,False,False,False,False
+http://dbpedia.org/resource/Texas,Texas,0,False,False,True,False,False,False,False,False,False
+http://dbpedia.org/resource/New_York_City,New York,1,False,False,False,False,False,False,True,True,False
+http://dbpedia.org/resource/FC_Bayern_Munich,Bayern,0,False,True,False,False,True,True,False,False,False
+http://dbpedia.org/resource/Bonn,Bonn,1,False,False,False,False,False,False,True,True,False

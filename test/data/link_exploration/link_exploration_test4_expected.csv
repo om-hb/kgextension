@@ -1,0 +1,4 @@
+,city,uri,http://data.nytimes.com/16057429728088573361,http://data.nytimes.com/N50987186835223032381,http://sws.geonames.org/2873891,http://sws.geonames.org/2892794,http://sws.geonames.org/2950157,http://sws.geonames.org/2950159,http://sws.geonames.org/3220721,http://sws.geonames.org/3220722,http://sws.geonames.org/6547383,http://sws.geonames.org/6559162
+0,Mannheim,http://dbpedia.org/resource/Mannheim,,,http://sws.geonames.org/2873891/,,,,,http://sws.geonames.org/3220722/,,http://sws.geonames.org/6559162/
+1,Karlsruhe,http://dbpedia.org/resource/Karlsruhe,,,,http://sws.geonames.org/2892794/,,,http://sws.geonames.org/3220721/,,,
+2,Berlin,http://dbpedia.org/resource/Berlin,http://data.nytimes.com/16057429728088573361,http://data.nytimes.com/N50987186835223032381,,,http://sws.geonames.org/2950157/,http://sws.geonames.org/2950159/,,,http://sws.geonames.org/6547383/,

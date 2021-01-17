@@ -1,0 +1,16 @@
+uri_1,uri_2,value_string
+http://dbpedia.org/resource/Category:German_state_capitals,http://www.wikidata.org/entity/Q7483098,1.0
+http://dbpedia.org/resource/Category:Countries_in_Europe,http://dbpedia.org/resource/Category:German_state_capitals,0.38
+http://dbpedia.org/resource/Category:German_state_capitals,http://www.wikidata.org/entity/Q4587626,0.38
+http://dbpedia.org/resource/Category:German_state_capitals,http://dbpedia.org/resource/Category:Nordic_countries,0.4
+http://dbpedia.org/resource/Category:German_state_capitals,http://es.dbpedia.org/resource/Categoría:Capitales_de_los_Estados_de_Alemania,
+http://dbpedia.org/resource/Category:Countries_in_Europe,http://www.wikidata.org/entity/Q7483098,0.38
+http://www.wikidata.org/entity/Q4587626,http://www.wikidata.org/entity/Q7483098,0.38
+http://dbpedia.org/resource/Category:Nordic_countries,http://www.wikidata.org/entity/Q7483098,0.4
+http://es.dbpedia.org/resource/Categoría:Capitales_de_los_Estados_de_Alemania,http://www.wikidata.org/entity/Q7483098,
+http://dbpedia.org/resource/Category:Countries_in_Europe,http://www.wikidata.org/entity/Q4587626,1.0
+http://dbpedia.org/resource/Category:Countries_in_Europe,http://dbpedia.org/resource/Category:Nordic_countries,0.6
+http://dbpedia.org/resource/Category:Countries_in_Europe,http://es.dbpedia.org/resource/Categoría:Capitales_de_los_Estados_de_Alemania,
+http://dbpedia.org/resource/Category:Nordic_countries,http://www.wikidata.org/entity/Q4587626,0.6
+http://es.dbpedia.org/resource/Categoría:Capitales_de_los_Estados_de_Alemania,http://www.wikidata.org/entity/Q4587626,
+http://dbpedia.org/resource/Category:Nordic_countries,http://es.dbpedia.org/resource/Categoría:Capitales_de_los_Estados_de_Alemania,

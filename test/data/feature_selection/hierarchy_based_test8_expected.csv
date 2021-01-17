@@ -1,0 +1,9 @@
+some_name,class,uri_bool_http://president,uri_bool_http://European_politician,uri_bool_http://man
+Angela Merkel,3,False,True,
+Donald Trump,3,True,False,
+Sebastian Kurz,3,False,True,True
+Darth Sidious,2,,False,True
+Nicolas Sarkozy,2,,True,
+Jacinda Adern,2,True,False,False
+Benjamin Netanjahu,2,,False,
+Wladimir Putin,3,True,,True

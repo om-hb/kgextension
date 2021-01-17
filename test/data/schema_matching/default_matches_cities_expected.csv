@@ -1,0 +1,11 @@
+uri_1,uri_2,value
+http://dbpedia.org/resource/Category:German_state_capitals,http://www.wikidata.org/entity/Q7483098,1
+http://dbpedia.org/resource/Category:Countries_in_Europe,http://dbpedia.org/resource/Category:German_state_capitals,0
+http://dbpedia.org/ontology/Organisation,http://dbpedia.org/resource/Category:German_state_capitals,0
+http://dbpedia.org/resource/Category:German_state_capitals,http://schema.org/Organization,0
+http://dbpedia.org/resource/Category:Countries_in_Europe,http://www.wikidata.org/entity/Q7483098,0
+http://dbpedia.org/ontology/Organisation,http://www.wikidata.org/entity/Q7483098,0
+http://schema.org/Organization,http://www.wikidata.org/entity/Q7483098,0
+http://dbpedia.org/ontology/Organisation,http://dbpedia.org/resource/Category:Countries_in_Europe,0
+http://dbpedia.org/resource/Category:Countries_in_Europe,http://schema.org/Organization,0
+http://dbpedia.org/ontology/Organisation,http://schema.org/Organization,1

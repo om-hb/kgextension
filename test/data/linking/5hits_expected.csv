@@ -1,0 +1,5 @@
+test_col,new_link_1,new_link_2,new_link_3,new_link_4,new_link_5
+berlin and paris are both capitals,http://dbpedia.org/resource/Berlin,http://dbpedia.org/resource/Paris,http://dbpedia.org/resource/Capital_city,,
+Angela M. plans to buy a flat in Hamburg,http://dbpedia.org/resource/Angela_Martin,http://dbpedia.org/resource/Horse_racing,http://dbpedia.org/resource/Hamburg,,
+"The BASF is located in Ludwigshafen, Rhineland-Palatine",http://dbpedia.org/resource/BASF,http://dbpedia.org/resource/Location,http://dbpedia.org/resource/Ludwigshafen,http://dbpedia.org/resource/Rhineland-Palatinate,
+Crist. Ronaldo plays in Madrid for Real Madrid,http://dbpedia.org/resource/Crist,http://dbpedia.org/resource/Cristiano_Ronaldo,http://dbpedia.org/resource/Play_(theatre),http://dbpedia.org/resource/Madrid,http://dbpedia.org/resource/Real_Madrid_CF
