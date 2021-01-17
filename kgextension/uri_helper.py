@@ -1,11 +1,9 @@
-from bs4 import BeautifulSoup
 from rdflib import Graph
 from rdflib.plugins.sparql.results.csvresults import CSVResultSerializer
 from functools import lru_cache
 import pandas as pd
 import numpy as np
 import requests
-import bs4
 import re
 import io
 import urllib.error
