@@ -24,12 +24,14 @@ the features generated, which can be used for later filtering with one of the
 Some of the generators support different result types:
 
 - **Boolean**: True if a certain caracteristic is
-  fulfilled and false if not
-- **Counts**: Count the occurences of a certain characteristic
-- **Relative counts**: Count the occurences of a certain characteristic in
-  relation to the total number of occurences
+  fulfilled and false if not.
+- **Counts**: Count the occurrences of a certain characteristic
+- **Relative counts**: Count the occurrences of a certain characteristic in
+  relation to the total number of occurrences.
 - **TF-IDF**: Similar feature as relative counts, but weighs the percentage
-  with the overall occurrence of a characteristic in the dataset 
+  with the overall occurrence of a characteristic in the dataset.
+
+A detailed comparison of the characteristics of these strategies is given in :cite:`feature_propositionalization`.
 
 The input to the generators is a :class:`pandas.DataFrame` with
 at least one column containing URIs linking the entities to a knowledge graph.
@@ -291,3 +293,7 @@ the query is replaced by the value in the column *link* of the respective entity
 +-----------+-----------------------------------+------+
 | Chile     | http://dbpedia.org/resource/Chile | 44.4 |
 +-----------+-----------------------------------+------+
+
+
+.. bibliography::
+    :filter: docname in docnames

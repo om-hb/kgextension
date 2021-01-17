@@ -146,3 +146,4 @@ The ``data_expanded`` DataFrame is the one created in `Preparation`_.
 
 
 .. bibliography::
+    :filter: docname in docnames
