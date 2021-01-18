@@ -4,7 +4,7 @@ Scikit-Learn Pipeline Integration
 
 The feature generation process of this package follows a certain workflow;
 first, the connection to the knowledge graph entities is established (see
-:ref:`linker-label`), then features are generated (see :ref:`generator-label`).
+:ref:`linker-label`), then features are generated (see :doc:`usage_generators`).
 Optionally, more links can be obtained by using the
 :ref:`link-exploration-label`. For the subsequent filtering of the additional
 features, the :ref:`feature-selection-label` algorithms can be used. In case of
