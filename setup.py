@@ -13,7 +13,7 @@ setup(
     version="0.0.1",
     description="The kgextension allows to access and use Linked Open Data to augment existing datasets. ",
     long_description=README,
-    long_description_content_type="text/markdown",
+    long_description_content_type="text/x-rst",
     url="https://kgextension.readthedocs.io/en/latest/",
     author="KG Team Uni Mannheim",
     author_email="kgproject20@gmail.com",
