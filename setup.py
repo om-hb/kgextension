@@ -38,7 +38,6 @@ setup(
         'tqdm',
         'lxml',
         'requests',
-        'pyspotlight',
         'fuzzywuzzy',
         'strsimpy',
         'rdflib',
