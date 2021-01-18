@@ -14,9 +14,9 @@ Using the :doc:`usage_generators` provided in this package will often result in 
 .. note::
    For the provided Feature Selection algorithms work only with the following generators:
 
-   * :TODO Link to Direct Type Generator explaination.
-   * :TODO Link to Qualified Relations Generator explaination.
-   * :TODO Link to Specific Relations Generator explaination.
+   * :ref:`Direct Type Generator <direct_type_generator>`
+   * :ref:`Qualified Relation Generator <qualified_relation_generator>`
+   * :ref:`Specific Relation Generator <specific_relation_generator>`
 
    Also, for them to work you need a **Label Column** in your data which can be used by the algorithms to evaluate the predictive power of the features.
 

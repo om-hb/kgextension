@@ -68,7 +68,10 @@ To set up your own Remote Endpoint, you have to create an :obj:`kgextension.spar
 
     DBpedia = RemoteEndpoint(url = "http://dbpedia.org/sparql", timeout=120, requests_per_min=100*60, retries=10, page_size=10000)
 
-The created RemoteEndpoint object can then be passed to the applicable functions.
+.. note::
+    Theoretically the only parameter needed to set up a RemoteEndpoint is the ``url`` parameter. However, it is important correctly set the remaining parameters, as they are needed for the automatic :doc:`tech_query_limiting` done by this package.
+
+After the successful creation, the resulting RemoteEndpoint object can be passed to the applicable functions.
 
 Local Endpoints
 ************************
