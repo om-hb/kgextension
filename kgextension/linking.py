@@ -56,9 +56,6 @@ def pattern_linker(
     else:
         df[new_attribute_name] = base_url + df[column]
 
-
-        ### TODO: Add more functionality here! (Ask Paulheim, Bizer, etc.) ###
-
     if url_encoding:
         #df[new_attribute_name] = df[new_attribute_name].apply(lambda x:
         #urllib.parse.quote)
