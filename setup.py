@@ -31,7 +31,7 @@ setup(
     include_package_data=True,
     install_requires=[
         'networkx',
-        "numpy",
+        'numpy',
         'pandas>=1.1.0',
         'info_gain',
         'scikit-learn',
