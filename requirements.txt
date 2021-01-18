@@ -6,7 +6,7 @@ SPARQLWrapper
 validators
 requests
 rdflib
-deckar01-ratelimit
+deckar01-ratelimit >= 3.0.0
 tqdm
 fuzzywuzzy[speedup]
 strsimpy

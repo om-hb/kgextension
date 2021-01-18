@@ -39,10 +39,10 @@ setup(
         "lxml",
         "requests",
         "pyspotlight",
-        "fuzzywuzzy[speedup]",
+        "fuzzywuzzy",
         "strsimpy",
         "rdflib",
-        "deckar01-ratelimit",
+        "deckar01-ratelimit>=3.0.0",
         "SPARQLWrapper",
         "validators"],
     project_urls={  # Optional
