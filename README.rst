@@ -1,4 +1,4 @@
-.. figure:: docs/_static/logo.png
+.. figure:: https://raw.githubusercontent.com/om-hb/kgextension/master/docs/_static/logo.png
    :alt: kgextension logo
 
 .. inclusion-marker-do-not-remove
