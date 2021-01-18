@@ -2,13 +2,6 @@
 Generators
 ====================
 
-- data_properties_generator_.
-- direct_type_generator_.
-- unqualified_relation_generator_.
-- qualified_relation_generator_.
-- specific_relation_generator_.
-- custom_sparql_generator_.
-
 Overview
 ^^^^^^^^
 

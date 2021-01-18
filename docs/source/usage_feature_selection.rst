@@ -73,9 +73,9 @@ Preparation
 
 For the provided Feature Selection algorithms to work you need a **hierarchy graph** of the generated attributes. As mentioned :ref:`above <note_supported_generators>`, the creation of this graph is only supported by the following generators:
 
-   * :TODO Link to Direct Type Generator explaination.
-   * :TODO Link to Qualified Relations Generator explaination.
-   * :TODO Link to Specific Relations Generator explaination.
+* :ref:`Direct Type Generator <direct_type_generator>`
+* :ref:`Qualified Relation Generator <qualified_relation_generator>`
+* :ref:`Specific Relation Generator <specific_relation_generator>`
 
 To create a hierarchy graph it is sufficient to set the ``hierarchy`` argument of these generators to **True**, as in this example:
 

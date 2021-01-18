@@ -5,12 +5,12 @@ Schema Matching & Fusion
 ==============================
 
 Idea
-^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^
 
 If data from different sources is used, it may be beneficial to match and fuse that data in avoid of the situation that two or more URIs represent one entity.
 
 Basics
-^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^
 
 The Schema Matching functions create a mapping of matching attributes 
 in the schema based on different metrics. Multiple results of matching score from various functions can be incorporated by Combiner function into 
@@ -33,8 +33,11 @@ selected separately for boolean, numeric and string values.
   * get_fusion_clusters
   * data_fuser
 
-relational_matching
+Matching
 ^^^^^^^^^^^^^^^^^^^^^^
+
+Relational Matching
+***************************
 :class:`kgextension.schema_matching.relational_matching`
 
 The relational matching function finds that two different
@@ -64,8 +67,8 @@ If parameter *match_score* is set to 1 as default, the result value of two same 
 | http://dbpedia.org/ontology/Organisation |http://dbpedia.org/ontology/country      |     0     |
 +------------------------------------------+-----------------------------------------+-----------+
 
-label_schema_matching
-^^^^^^^^^^^^^^^^^^^^^^^^
+Label Schema Matching
+***************************
 :class:`kgextension.schema_matching.label_schema_matching`
 
 The label schema matching function is designed to query and compare the labels of one entity
@@ -100,8 +103,8 @@ would be 0.
 | http://dbpedia.org/ontology/Organisation |http://dbpedia.org/ontology/country      |     0       |
 +------------------------------------------+-----------------------------------------+-------------+
 
-string_similarity_matching
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+String Similarity Matching
+***************************
 :class:`kgextension.schema_matching.string_similarity_matching`
 
 The string similarity matching function calculates the string similarity from the text field obtained by querying the attributes for the predicate. The
@@ -110,7 +113,7 @@ calculation based on various metrics that are *Norm Levenshtein*, *Partial Leven
 The default querying predicate is ``rdfs:label``.
 
 Default
-*********
+"""""""""""""""""""""""""""""
 
 .. code-block:: python
 
@@ -143,7 +146,7 @@ The output DataFrame of the function with default setting would be:
     The *value_string* would be null if one or more URIs of one combination in which queried predicate is missing. For above example the *rdfs:label* of *http://schema.org/Organization* doesn't exist. 
 
 Other Similarity Metric
-***************************
+""""""""""""""""""""""""""""""
 
 parameter *n* is n-Value set for the metrics "ngram" and "jaccard". It defaults to 2.
 
@@ -187,8 +190,8 @@ parameter *n* is n-Value set for the metrics "ngram" and "jaccard". It defaults 
 | http://dbpedia.org/ontology/Organisation |http://dbpedia.org/ontology/country      |     0.0       |
 +------------------------------------------+-----------------------------------------+---------------+
 
-value_overlap_matching
-^^^^^^^^^^^^^^^^^^^^^^^^^
+Value Overlap Matching
+***************************
 :class:`kgextension.schema_matching.value_overlap_matching`
 
 The value overlap matching function calculates the ratio of overlapping values
@@ -213,8 +216,11 @@ is calculated by dividing equivalence by the total number of entity values.
 |http://dbpedia.org/ontology/Organisation  | http://schema.org/Organization          |     1.00       |
 +------------------------------------------+-----------------------------------------+----------------+
 
-matching_combiner
+Combine Matchings
 ^^^^^^^^^^^^^^^^^^^^^^
+
+Matching Combiner
+***************************
 :class:`kgextension.schema_matching.matching_combiner`
 
 It combines results of the schema matching functions
@@ -225,7 +231,7 @@ methods for combining the individual scores: *Maximum*, *Minimum*, *Average*,
 Here we use the result DataFrame of above schema matching functions with default setting as input.
 
 Default: Method-*Average*
-******************************
+""""""""""""""""""""""""""""
 
 .. code-block:: python
 
@@ -253,7 +259,7 @@ The output DataFrame would be like below, similar as the result of schema matchi
 +------------------------------------------+-----------------------------------------+----------------+
 
 Other Methods
-******************************
+"""""""""""""""""""""
 
 :class:`method="max"`
 
@@ -332,8 +338,12 @@ Then the result DataFrame would be:
 |http://dbpedia.org/ontology/Organisation  | http://schema.org/Organization          |     3          |
 +------------------------------------------+-----------------------------------------+----------------+
 
-get_fusion_clusters
+
+Fusion
 ^^^^^^^^^^^^^^^^^^^^^^
+
+Get Fusion Clusters
+***************************
 :class:`kgextension.fusion.get_fusion_clusters`
 
 The get fusion clusters function for creating clusters with the
@@ -359,8 +369,8 @@ In our example, the function returns:
     
 
 
-data_fuser
-^^^^^^^^^^^^^^^^^^^^^^
+Data Fuser
+***************************
 :class:`kgextension.fusion.data_fuser`
 
 The data fuser function can fuse the columns in the matching sets of the clusters.
@@ -382,7 +392,7 @@ The final output would be a DataFrame that contains no more than one URI for eac
     )
 
 Fuser Metrics for Different Type and Size Matchers
-*******************************************************
+"""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 The following table list for specific data type and matchers size, which kind of fuser metrics are available.
 

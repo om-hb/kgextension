@@ -4,12 +4,6 @@
 Linking
 ====================
 
-- pattern_linker_.
-- label_linker_.
-- dbpedia_lookup_linker_.
-- dbpedia_spotlight_linker_.
-- sameas_linker_.
-
 Overview
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -61,7 +55,7 @@ _____________________________________
 
 .. _pattern_linker:
 
-pattern_linker
+Pattern Linker
 ^^^^^^^^^^^^^^^^^^^^
 :class:`kgextension.linking.pattern_linker`
 
@@ -102,7 +96,7 @@ _____________________________________
 
 .. _label_linker:
 
-label_linker
+Label Linker
 ^^^^^^^^^^^^^^^^^^^^
 :class:`kgextension.linking.label_linker`
 
@@ -240,7 +234,7 @@ _____________________________________
 
 .. _dbpedia_lookup_linker:
 
-dbpedia_lookup_linker
+DBpedia Lookup Linker
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
 :class:`kgextension.linking.lookup_linker`
 
@@ -356,7 +350,7 @@ _____________________________________
 
 .. _dbpedia_spotlight_linker:
 
-dbpedia_spotlight_linker
+DBpedia Spotlight Linker
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 :class:`kgextension.linking.dbpedia_spotlight_linker`
 
@@ -512,7 +506,7 @@ _____________________________________
 
 .. _sameas_linker:
 
-sameas_linker
+sameAs Linker
 ^^^^^^^^^^^^^^^
 :class:`kgextension.linking.sameas_linker`
 

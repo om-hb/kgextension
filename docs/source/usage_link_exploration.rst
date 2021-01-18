@@ -6,12 +6,6 @@ Link Exploration
 
 :class:`kgextension.link_exploration.link_explorer`
 
-- Default_.
-- Number-of-hops_.
-- Links-to-follow_.
-- Include-sources_.
-- Exclude-sources_.
-
 Overview
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -25,7 +19,7 @@ adds the discovered links as new columns to the dataframe.
 
 Consider as an example input the following toy example:
 For a dataset entity "Berlin", the linker identified the corresponding
-DBpedia URI "http://dbpedia.org/resource/Berlin"
+DBpedia URI "http://dbpedia.org/resource/Berlin".
 
 +---------+------------------------------------+
 | city    | uri                                |
@@ -49,9 +43,12 @@ find many more URIs.
 
 _____________________________________
 
+Parameters
+^^^^^^^^^^^^^^^^^^^^
+
 .. _Default:
 
-Default
+Default Setting
 ***************
 
 In its default version, the link explorer performs one hop
@@ -70,7 +67,7 @@ _____________________________________
 
 .. _Number-of-hops:
 
-Number of hops
+Number of Hops
 ***************
 
 In order to generate more URI columns, the number of hops can be increased to
@@ -101,7 +98,7 @@ _____________________________________
 
 .. _Links-to-follow:
 
-Links to follow
+Links to Follow
 ***************
 
 The link explorer can follow arbitrary links and also multiple at the same
