@@ -1,6 +1,6 @@
 from kgextension.sparql_helper import RemoteEndpoint
 
-DBpedia = RemoteEndpoint(url = "http://dbpedia.org/sparql", timeout=120, requests_per_min=100*60, retries=10, page_size=10000)
+DBpedia = RemoteEndpoint(url = "https://dbpedia.org/sparql", timeout=120, requests_per_min=100*60, retries=10, page_size=10000)
 
 """   
 Predefined SPARQL endpoint for DBpedia.
