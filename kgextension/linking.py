@@ -259,7 +259,7 @@ def label_linker(
         result_df_grouped = result_df.groupby("label")["uri"].apply(
             lambda x: pd.Series(x.values)).unstack()
         result_df_grouped = result_df_grouped.rename(
-            columns={i: "new_link"+"_{}".format(i + 1) for i in range(result_df_grouped.shape[1])})
+            columns={i: new_attribute_name+"_{}".format(i + 1) for i in range(result_df_grouped.shape[1])})
         result_df_grouped = result_df_grouped.reset_index()
 
         df = pd.merge(df, result_df_grouped.drop_duplicates(), left_on=column,
