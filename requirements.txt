@@ -13,3 +13,6 @@ strsimpy
 scikit-learn
 networkx
 info-gain
+
+# For Example Notebooks
+matplotlib
