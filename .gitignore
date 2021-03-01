@@ -1,0 +1,3 @@
+rate_limits.db
+*.pyc
+*.ipynb_checkpoints
