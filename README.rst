@@ -1,5 +1,13 @@
 .. figure:: https://raw.githubusercontent.com/om-hb/kgextension/master/docs/_static/logo.png
    :alt: kgextension logo
+   
+.. image:: https://mybinder.org/badge_logo.svg
+   :target: https://mybinder.org/v2/gh/om-hb/kgextension/master?filepath=examples%2Fbook_genre_prediction.ipynb
+   :alt: Open In Binder
+ 
+.. image:: https://colab.research.google.com/assets/colab-badge.svg
+   :target: https://colab.research.google.com/github/om-hb/kgextension/blob/master/examples/book_genre_prediction.ipynb
+   :alt: Open In Colab
 
 .. inclusion-marker-do-not-remove
 
