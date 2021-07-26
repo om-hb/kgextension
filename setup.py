@@ -10,7 +10,7 @@ README = (HERE / "README.rst").read_text()
 # This call to setup() does all the work
 setup(
     name="kgextension",
-    version="0.0.1",
+    version="0.1.1",
     description="The kgextension allows to access and use Linked Open Data to augment existing datasets. ",
     long_description=README,
     long_description_content_type="text/x-rst",
