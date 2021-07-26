@@ -368,7 +368,7 @@ class TestLabelLinker:
         })
 
         result = label_linker(df, "state", endpoint=DBpedia,
-                              language="en", graph_uri="http://dbpedia.org")
+                              language="en")
 
         pd.testing.assert_frame_equal(result, expected_result_df)
 
@@ -402,7 +402,7 @@ class TestLabelLinker:
         })
 
         result = label_linker(df, "state", endpoint=DBpedia,
-                              language="de", graph_uri="http://dbpedia.org")
+                              language="de")
 
         pd.testing.assert_frame_equal(result, expected_result_df)
 
@@ -427,7 +427,7 @@ class TestLabelLinker:
             "new_link_11": [np.nan, np.nan, "http://www.wikidata.org/entity/Q1365112"]
         })
 
-        result = label_linker(df, "state", endpoint=DBpedia, language="de")
+        result = label_linker(df, "state", endpoint=DBpedia, language="de", max_hits=11)
 
         pd.testing.assert_frame_equal(result, expected_result_df)
 
