@@ -129,31 +129,20 @@ Default
 Language
 ********
 
-By setting the language tag to a different language, e.g. Spanish, the words 
-are generally translated to the English
-URI with the same meaning, whereas the English language setting keeps the
-original meaning.
+The language argument is used to specify the language the labels are in. When 
+querying, the label linker will add the specified language to the label as a 
+language tag (e.g., "ExampleLabel"@en). 
 
-+-------------------+--------------------------------------+
-| spanish_word      | new_link (language='es')             |
-+===================+======================================+
-| Prado             | http://dbpedia.org/resource/Meadow   |
-+-------------------+--------------------------------------+  
-| Leche             | http://dbpedia.org/resource/Milk     |
-+-------------------+--------------------------------------+  
-| Medellín          | http://dbpedia.org/resource/Medellin |
-+-------------------+--------------------------------------+ 
+Imagine for example if we query DBpedia for the URI corresponding to the label 
+"Sommer" (German for "Summer"). If we set the language argument to "de" (for 
+German), we tell DBpedia to return the resource which, in German, is labeled 
+"Sommer" (http://dbpedia.org/resource/Summer). If we set the language argument 
+to "en" DBpedia will return the resource that, in English, is labeled "Sommer" 
+(http://dbpedia.org/resource/Sommer).
 
-
-+-------------------+--------------------------------------+
-| spanish_word      | new_link (language='en')             |
-+===================+======================================+
-| Prado             | http://dbpedia.org/resource/Prado    |
-+-------------------+--------------------------------------+  
-| Leche             | http://dbpedia.org/resource/Leche    |
-+-------------------+--------------------------------------+  
-| Medellín          | http://dbpedia.org/resource/Medellin |
-+-------------------+--------------------------------------+ 
+.. note::
+    If the endpoint you query does not use language tags, the language argument 
+    has to be set to *None*.
 
 
 Number of Links
