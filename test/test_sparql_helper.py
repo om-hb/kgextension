@@ -213,11 +213,11 @@ class TestLocalEndpointQuerying:
 
         path = "test/data/sparql_helper/Q42.n3"
 
-        SparqlPlayground = LocalEndpoint(path, "n3")
+        WikiData = LocalEndpoint(path, "n3")
 
-        SparqlPlayground.initialize()
+        WikiData.initialize()
 
-        result = SparqlPlayground.query(query).sort_values(by=["p"]).reset_index(drop=True)
+        result = WikiData.query(query).sort_values(by=["p"]).reset_index(drop=True)
 
         expected_result_df = pd.DataFrame({
             "p": ["http://schema.org/inLanguage", "http://schema.org/isPartOf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "http://schema.org/name", "http://schema.org/about"],
@@ -233,11 +233,11 @@ class TestLocalEndpointQuerying:
 
         path = "test/data/sparql_helper/Q42.n3"
 
-        SparqlPlayground = LocalEndpoint(path)
+        WikiData = LocalEndpoint(path)
 
-        SparqlPlayground.initialize()
+        WikiData.initialize()
 
-        result = SparqlPlayground.query(query).sort_values(by=["p"]).reset_index(drop=True)
+        result = WikiData.query(query).sort_values(by=["p"]).reset_index(drop=True)
 
         expected_result_df = pd.DataFrame({
             "p": ["http://schema.org/inLanguage", "http://schema.org/isPartOf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "http://schema.org/name", "http://schema.org/about"],
@@ -262,11 +262,11 @@ class TestLocalEndpointQuerying:
 
         path = "test/data/sparql_helper/mondial-europe.rdf"
 
-        SparqlPlayground = LocalEndpoint(path, "xml")
+        Mondial = LocalEndpoint(path, "xml")
 
-        SparqlPlayground.initialize()
+        Mondial.initialize()
 
-        result = SparqlPlayground.query(query).sort_values(by=["N2"]).reset_index(drop=True)
+        result = Mondial.query(query).sort_values(by=["N2"]).reset_index(drop=True)
 
         expected_result_df = pd.DataFrame({
             "N1": ["Vaduz","Vaduz","Vaduz","Vaduz","Vaduz","Vaduz"],
@@ -291,11 +291,11 @@ class TestLocalEndpointQuerying:
 
         path = "test/data/sparql_helper/mondial-europe.rdf"
 
-        SparqlPlayground = LocalEndpoint(path)
+        Mondial = LocalEndpoint(path)
 
-        SparqlPlayground.initialize()
+        Mondial.initialize()
 
-        result = SparqlPlayground.query(query).sort_values(by=["N2"]).reset_index(drop=True)
+        result = Mondial.query(query).sort_values(by=["N2"]).reset_index(drop=True)
 
         expected_result_df = pd.DataFrame({
             "N1": ["Vaduz","Vaduz","Vaduz","Vaduz","Vaduz","Vaduz"],
