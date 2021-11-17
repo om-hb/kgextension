@@ -169,8 +169,9 @@ def dbpedia_lookup_linker(
 
 
 def label_linker(
-    df, column, new_attribute_name="new_link", progress=True, endpoint=DBpedia, result_filter=None,
-    language="en", max_hits=1, label_property="rdfs:label",prefix_lookup=False, caching=True):
+    df, column, new_attribute_name="new_link", progress=True, endpoint=DBpedia, 
+    result_filter=None, language="en", max_hits=1, label_property="rdfs:label", 
+    prefix_lookup=False, caching=True):
     """Label Linker takes attributes from a column and adds a new column with
     the respective knowledge graph links based on the provided label_property
     (rdfs:label by default).
@@ -187,9 +188,9 @@ def label_linker(
             Defaults to DBpedia.
         result_filter (list, optional): A list filled with regexes (as strings) 
             to filter the results. Defaults to None.
-        language (str, optional): Restrict search to labels with a certain 
-            language tag. Set to None if restriction is needed. Defaults to 
-            "en".
+        language (str, optional): Used to specify the language the labels are 
+            in. If the queried endpoint does not use language tags, set to 
+            None. Defaults to "en".
         max_hits (int, optional): Maximal number of URI's that should be 
             returned per entity. Defaults to 1.
         label_property (str, optional): Specifies the label_property the should 
